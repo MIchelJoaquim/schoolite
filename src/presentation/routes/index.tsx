@@ -1,9 +1,9 @@
-import { Route, Routes } from "react-router-dom";
+import { Link, Route, Routes } from "react-router-dom";
 
 const MyRoutes = () => {
     return (
       <Routes> 
-          <Route path="/" element={<div>Home1</div>} />
+          <Route path="/" element={<div>Home1 <Link to='/storage'>storage</Link></div>} />
          
           <Route
             path="/storage"
